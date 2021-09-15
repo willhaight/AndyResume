@@ -58,3 +58,41 @@ body {
                 }
             }
         }
+        .content {
+            display:flex;
+            width:80%;
+            .one {
+                width:30%;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: flex-start;
+                background-color: $darkGrey;
+                padding:1% 3% 1% 3%;
+            }
+            .two {
+                width:80%;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: center;
+                background-color: $lightGrey;
+                p {
+                    font-weight: bold;
+                }
+            }
+            h3 {
+                color:rgb(54, 67, 124);
+                font-size: 1.5em;
+                border-bottom: 10px solid rgb(54, 67, 124);
+                border-radius: 30%;
+            }
+        }
+        .contact {
+            width:100%;
+            display:flex;
+            align-items: center;
+            p {
+                margin-left:4%;
+            }
+        }
