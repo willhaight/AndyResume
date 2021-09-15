@@ -7,8 +7,11 @@ body {
   font-size: 1vw;
 }
 
-.top {
+.content .two, .content, .top {
   width: 80%;
+}
+
+.top {
   height: fit-content;
   display: flex;
   justify-content: flex-start;
@@ -19,7 +22,7 @@ body {
   height: fit-content;
   filter: blur(5px);
   min-width: 100%;
-  min-height: 100;
+  min-height: 100%;
 }
 .top #andy {
   width: 20%;
@@ -34,7 +37,7 @@ body {
 .top div {
   width: 30%;
   color: #36437c;
-  background-color: rgba(255, 255, 255, 0.411);
+  background-color: #c4c7cc;
   border: 3px solid #36437c;
   border-radius: 100%;
   padding-left: 12%;
@@ -55,7 +58,6 @@ body {
 
 .content {
   display: flex;
-  width: 80%;
 }
 .content .one {
   width: 30%;
@@ -67,7 +69,6 @@ body {
   padding: 1% 3% 1% 3%;
 }
 .content .two {
-  width: 80%;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -78,10 +79,12 @@ body {
   font-weight: bold;
 }
 .content h3 {
+  width: 40%;
   color: #36437c;
   font-size: 1.5em;
   border-bottom: 10px solid #36437c;
   border-radius: 30%;
+  width: auto;
 }
 
 .contact {
