@@ -3,4 +3,13 @@ body {
   color: white;
 }
 
+body {
+  background-color: #dadfea;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1vw;
+}
+
 /*# sourceMappingURL=styles.css.map */
